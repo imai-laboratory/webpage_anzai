@@ -1,0 +1,20 @@
+body.login{background-color:white;color:black}
+body.input{background-color:white;color:black}
+
+table.section{width:100%}
+table.chousahyou{width:100%}
+table.chousahyou_soto{width:100%;border:3px double black}
+table.chousahyou_kibou{width:100%;border:1px solid black}
+
+td.section{background-color:blue;color:white;border:3px double white}
+td.chousahyou{background-color:#eeeeee;color:black;border:1px solid black}
+td.chousahyou_bold{background-color:#eeeeee;color:black;border:1px solid black;
+ font-weight:bold}
+td.chousahyou_koumoku{background-color:lightgreen;color:black;
+ border:1px dashed black;font-size:x-small}
+td.chousahyou_kibou{background-color:lime;color:black;
+ border:1px groove black;font-size:small}
+td.chousahyou_space{font-size:xx-small}
+
+input.chousahyou{width:100%}
+select.chousahyou{width:100%}

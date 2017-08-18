@@ -1,0 +1,23 @@
+<html>
+ <head>
+  <title>進路希望調査</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <link rel="stylesheet" href="research.css">
+ </head>
+ <body class="input">
+  <table class="section"><tr><td class="section">
+   <h2>進路希望本調査 [一覧表示]</h2>
+  </td></tr></table>
+  <br>
+  更新時刻: <%localtime%>
+  <table class="chousahyou_soto"><tr>
+   <td class="chousahyou_koumoku">学籍番号</td>
+   <td class="chousahyou_koumoku">氏名</td>
+   <td class="chousahyou_koumoku">第1希望</td>
+   <td class="chousahyou_koumoku">企業名</td>
+   <td class="chousahyou_koumoku">更新日</td>
+   <td class="chousahyou_koumoku">発行</td>
+  </tr><%list%></table>
+ </body>
+</html>

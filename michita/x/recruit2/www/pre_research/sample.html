@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="ja">
+<head><title>Doi&amp;Takada Lab.</title>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=euc-jp">
+<META HTTP-EQUIV="CONTENT-STYLE-TYPE" CONTENT="CONTENT-STYLE-TYPE"> 
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<LINK REL="stylesheet" HREF="recruit.css">
+</head>
+
+<body>
+
+<h1 class=title>推薦予備調査</h1>
+<h2 class=title>慶應義塾大学理工学部情報工学科 / 大学院理工学研究科開放環境科学 ??</h2>
+<br><br>
+<center>
+<form method=POST action="hogehoge.cgi" name="modify">
+<table width="50%" class=modify><tr><td colspan="3">現在のあなたの応募状態</td></tr>
+<tr><td>第1希望</td><td>第2希望</td><td>第3希望</td></tr>
+<tr><td>
+<!-- select 企業 -->
+<select name="company" class=company>
+<option value="0">0: [未選択]
+<option value="1">1: [進学 - 博士]
+<option value="2">2: [進学 - 修士]
+<option value="3">3: 日本IBM
+<option value="4" selected>4: NEC
+<option value="5">5: 東芝
+<option value="6">6: 松下
+<option value="7">7: NTT
+<option value="8">8: ソニー</select>
+<!-- select 企業 -->
+</td><td>
+<select name="company" class=company>
+<option value="0">0: [未選択]
+<option value="1">1: [進学 - 博士]
+<option value="2">2: [進学 - 修士]
+<option value="3">3: 日本IBM
+<option value="4" selected>4: NEC
+<option value="5">5: 東芝
+<option value="6">6: 松下
+<option value="7">7: NTT
+<option value="8">8: ソニー
+</select>
+</td><td>
+<select name="company" class=company>
+<option value="0">0: [未選択]
+<option value="1">1: [進学 - 博士]
+<option value="2">2: [進学 - 修士]
+<option value="3">3: 日本IBM
+<option value="4" selected>4: NEC
+<option value="5">5: 東芝
+<option value="6">6: 松下
+<option value="7">7: NTT
+<option value="8">8: ソニー</td></tr>
+
+</td></tr>
+<tr><td>ユーザID</td><td><input type=text name="userid" maxlength="8" size="10"></td></tr>
+<tr><td>パスワード</td><td><input type=password name="password" maxlength="8" size="10"></td></tr>
+<tr><td colspan="3"><input type=button value="変更" onclick="javascript:res=confirm('本当に変更しますか？');if (res==true){submit()}else{}"></td></tr>
+</table><input type=hidden name="stage" value="modify"></form>
+</center>
+<br><br>
+<center>
+<table width=80%>
+<tr><td colspan="7"><img src="icon_01.gif"> 余裕あり  |  <img src="icon_02.gif"> 残りわずか  |  <img src="icon_03.gif"> 定員オーバー</td>
+<tr><td width="5%"></td><td width="40%"></td><td width="10%"></td><td width="15%"></td><td width="10%"></td><td width="10%"></td><td width="10%"></td></tr>
+<tr><td class=title colspan="4">企業</td><td class=title colspan="3">現在の応募人数</td></tr>
+<tr><td class=title_small>ID</td><td class=title_small>企業名</td><td class=title_small>種別</td><td class=title_small>推薦枠</td><td class=title_small>第1希望</td><td class=title_small>第2希望</td><td class=title_small>第3希望</td></tr>
+<!-- 進学データ -->
+<tr><td class=data>1</td><td class=data>進学 - 博士</td><td class=data>進学</td><td class=data>-</td><td class=data>10</td><td class=data>10</td><td class=data>10</td></tr>
+<tr><td class=data>2</td><td class=data>進学 - 修士</td><td class=data>進学</td><td class=data>-</td><td class=data>10</td><td class=data>10</td><td class=data>10</td></tr>
+<tr></tr>
+<!-- 進学データ -->
+
+<!-- データ -->
+<tr><td class=data>3</td><td class=data>日本IBM</td><td class=data>推薦</td><td class=data>5</td><td class=data>10<img src="icon_01.gif"></td><td class=data>10<img src="icon_01.gif"></td><td class=data>10<img src="icon_01.gif"></td></tr>
+<tr><td class=data>4</td><td class=data>NEC</td><td class=data>推薦</td><td class=data>5</td><td class=data>10<img src="icon_01.gif"></td><td class=data>10<img src="icon_01.gif"></td><td class=data>10<img src="icon_01.gif"></td></tr>
+<tr><td class=data>5</td><td class=data>東芝</td><td class=data>推薦</td><td class=data>5</td><td class=data>10<img src="icon_01.gif"></td><td class=data>10<img src="icon_01.gif"></td><td class=data>10<img src="icon_01.gif"></td></tr>
+<tr><td class=data_select>6</td><td class=data_select>松下</td><td class=data_select>推薦</td><td class=data_select>5</td><td class=data_select>10<img src="icon_01.gif"></td><td class=data_select>10<img src="icon_01.gif"></td><td class=data_select>10<img src="icon_01.gif"></td></tr>
+<tr><td class=data>7</td><td class=data>NTT</td><td class=data>推薦</td><td class=data>5</td><td class=data>10<img src="icon_01.gif"></td><td class=data>10<img src="icon_01.gif"></td><td class=data>10<img src="icon_01.gif"></td></tr>
+
+<!-- データ -->
+</table></center>
+
+
+</body>
+</html>

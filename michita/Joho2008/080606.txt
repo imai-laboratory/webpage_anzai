@@ -1,0 +1,209 @@
+番号	著者	編者	書名	出版社	発行年	発行月	注釈
+1	大岩　元		TUTタッチタイピング	岩波書店			
+2	高安　秀樹　，高安　美佐子		フラクタルって何だろう	朝倉書店			
+3	高安　秀樹		フラクタル	朝倉書店	1990	9	
+4	M.W.クルーガー	下野　隆生	人工現実　インタラクティブ・メディアの展開	トッパン	1991	11	
+5	クリフォード・ストール		カッコウはコンピュ－タに卵を産む　下	草思社	1991	12	
+6	クリフォード・ストール		カッコウはコンピュ－タに卵を産む　上	草思社	1991	12	
+7	Guy L. Steele Jr.	井田　昌之　翻訳	Common LISP   コンピュ－タ・サイエンス誌 bit別冊	共立出版	1990		
+8		大須賀　節雄　監訳	人工知能大辞典	丸善	1991	8	Encyclopedia of Artficial Intelligence
+9	"Williams, N."		"The Computer, the Writer and the Learner."	Springer-Verlag	1991		
+10		"Rozenberg, G."	Advances in Petri Nets 1991	Springer-Verlag	1991		
+11	"McGeer, P.C."		Integrating Functional and Temporal Domains in Logic Design	kluwer	1991		
+12		"Martins, J. P."	Truth Maintenance Systems	Springer-Verlag	1991		
+13		"Greenberg, S."	Computer-Supported Cooperative Work and Groupware	Academic Press	1990		
+14		"Barrett, E."	"Text Context, and Hypertext"	M.I.T.	1988		
+15		"Barrett, E."	The Society of text	M.i.T.	1989		
+16	"Mattos, N.M."		An Approrch to Knowledge Base Management	Springer-Verlag	1991
+17		"Jensen, K."	High-Level Petri-nets	Springer-Verlag	1991
+18	"Jalote, P."		An Integrated Approach to Software Engineering	Springer-Verlag	1991
+19	"Finseth, C.A."		The Craft of Text Editing	Springer-Verlag	1991
+20		"America, P."	ECOOP'91: European Conference on Object-Oriented Programming	Springer-Verlag	1991
+21	"Mchaney, R.W."		Computer Simulation: A Practical Perspective	Academic Press	1991
+22		"Kangassalo, H."	Entity-Relationsip Approach: The Core of Conceptual Modelling	N-Holland	1991
+23	"Endres, A."	"Weber, H."	Software Deveropment Enviroments and CASE Technology	Springer-Verlag	1991
+24		"de Bakker, J.W."	Foundations of Object-Oriented Languages	Springer-Verlag	1991
+25		"G. Goos, J. Hartmanis"	Computer-Aided Cooperative Product Development	Springer-Verlag	1991
+26	"Reichgelt, H."		Knowledge Representation: An AI Perspective	Ablex	1991
+27	"Nornan, K.L."		The psychology of Menu Selection	Ablex 	1991
+28			1990 International Conference on Computer Languages	IEEE	1990
+29			The Sixth Conference on Artificial Intelligence Applications	IEEE	1990
+30		"Bernard Zeigler, Jeizy Rozenblit"	"1990 Al, Simulation and Planning in High Autonomy Systems"	IEEE	1990
+31		Peter G. Raeth	Expert Systems: A Software Methodology for Modern Applications	IEEE	1990
+32		Uma G. Gupta	Validation and Verification of Expert Systems 	IEEE	1991		
+33	Ephraim P. Glinert		Visual Programming Environments: Applications and Issues	IEEE	1990		
+34		Ephraim P. Glinet	Visual Programming Environments: Paradigm and Systems	IEEE	1990		
+35	三浦　宏文	渡辺　茂	システムの世界(4)	共立出版	1985	4	
+36	須賀　雅夫，川畑　正大　　	渡辺　茂	システムの世界(3)	共立出版	1984	9	
+37	石井　威望，中西　俊男，小玉　陽一	渡辺　茂	システムの世界(2)	共立出版	1985	4	
+38	S.シュレイア－，S.J.メラ－	本位田　真一，山口　亨	オブジェクト指向システム分析	啓学出版	1991	3	
+39	村田　健郎，小国　力，三好　俊郎，小柳　義夫		工学における数値シュミレ－ション	丸善	1990	9	
+40	津田　孝夫		モンテカルロ法とシュミレ－ション	培風館	1990	9	
+41	松坂　知行		パソコンによる動的システムとシュミレ－ション	工学図書	1986	4	
+42	D.シュタウファ－，F.W.ヘ－ル	金田　康正　監訳	よくわかる計算物理	Springer-Verlag	1990	4	
+43		渡辺　茂	システムの世界(1)	共立出版	1990	12	
+44			"Advances in Software Science and Technology  1,2,3"	Academic Press　　岩波書店	1991		
+45	P. Bishop	神林　靖・訳	新世代コンピュ－タと情報技術	啓学出版	1990	11	"Fifth Generation Computer Concepts, Implementation and Uses"
+46	上田　顯		コンピュ－タ・シュミレ－ション	朝倉書店	1990	5	マクロな系の中の原子運動
+47		浦　昭二	FORTRAN77入門	培風館	1990	9	
+48		"Ng. P. A, Yeh. R. T."	Modern Software Engineering: Foundations and Current Perspectives	Van Nostland	1990		
+49		テクニカルコミュニケ－ション研究会	わかりやすいマニュアルの作成法	日経ＢＰ	1989	4	
+50	小林　敦		マニュアル作成の構造化手法	日経ＢＰ	1989	6	
+51	Brad M. Mcgehee，テクニカルライティング研究会		ユ－ザ－マニュアル執筆ガイド	日経ＢＰ	1989	7	
+52	Joseph S. Dumas		ソフトウェア開発のためのユーザーインタフェース	日経ＢＰ社			
+53	Leonard Kleinrock，Richard Gail		SOLUTIONS MANUAL for Queueing Systems 2	Technology Transfer Institute	1986		
+54	Leonard Kleinrock，Richard Gail		SOLUTIONS MANUAL for Queueing Systems 1	Technology Transfer Insititute	1982		
+55		B. R. Gaines	Knowledge Acquisition for Knowledge-Based Systems	Academic Press	1988		
+56		J. H. Boose	Knowledge Acquisition Tools for Expert Systems	Academic Press	1988		
+57		"Alfred Kobsa, Wolfgang Wahlster"	User Models in Dialog Systems	Springer-Verlag	1989		"Human computer interaction, Artificial intelligence, Question-answering system"
+58	"James Gosling, David S. H. Rosenthal, Michelle J. Arden"		The NeWS Book An Introduction to the Network/extrensible Window System	Springer-Verlag	1989		
+59	David Buerger		LaTeX for Engineers & Scientists	McGraw-Hill Publishing Company	1990		
+60		"P. A Hancock, M. H. Chignell"	Intelligent Interfaces	North Holland	1989		
+61	Tom Axford		Concurrent Programming: Fundamental Techniques for Real-Time and Parallel Software Design	John-Wiley	1989		"real-time systems, concurrent programming, "
+62	"Crandall, R."		Mathematica for the Sciences	Addison-Wesley	1991		
+63	P. N. Johnson-Laird		メンタルモデル	産業図書	1988	9	
+64	"Black, P. B."		Linkway: Hypermedia for the PC	John-Wiley	1990	
+65	"Sydow, A."	"Paul A. Luker, Bernd Schmidt"	Systems Analysis and Simulation Vol.2	Springer-Verlag	1988	9
+66	Erik Sandewall		Software Architecture and Programming Paradigm for Robotics Applications	Linkoping	1988	
+67	Mats Wiren		An Incremental Chart Parser for PATR	Linkoping	1988	
+68	Henrik Eriksson		A Study in Domain-Oriented Tool Support for Knowledge Acquisition	Linkoping	1989	
+69	Peter Aberg		Design of Multiple View Presentation and Interaction Manager	Linkoping	1989	
+70	Yngve Larsson		Dynamic Configuration in a Distributed Environment	Linkoping	1989	
+71	Jonas Lowgren		Supporting Design and Management of Expert System User Interfaces	Linkoping	1989	
+72		"Carbonell, J."	Machine Learning: Paradigms and Methods	M.I.T	1990	
+73		"Nielsen, J."	Coordinatig User Interfaces for Consistency	Academic Press	1989	
+74	"Sydow, A."	"Paul A. Luker, Bernd Schmidt"	Systems Analysis and Simulation Vol.1	Springer-Verlag	1988	9
+75	"Schorr, H.，Rappaport, A."		Innovative Applications of Artficial Intteligence	M.I.T.	1989	
+76	"Bennett, K. H."	Keith H. Bennett	Software Engineering Enviroments: Reserch and Practice	John-Wiley	1989	
+77	"Gustfield, D.，Irving, R."		The Stable Marriage Probrem: Structute and Algorithms	M.I.T.	1989	
+78	"Conway, A. E.，Georganas, N. D."		Queueing Networks: Exact Computational Algorithms	M.I.T.	1989	
+79	"Brown, J. R.，Steve Cunningham"		Programming the User Interface	John-Wiley	1989	
+80	"Bareiss, R."		Exemplar-Based Knowledge Acquisition	Academic Press	1989	
+81		Apple Computer Inc.	Hypercard Stack design Guidelines	Addison-Wesley	1989	10
+82		"Grimson, W. E. L., Patil, R. S."	AI in the 1980 and Beyond: AN MIT Survey	M.I.T.	1987	
+83	Ivan Futo，Tamas Gergely		Artficial Intelligence in Simulation	John-Wiley	1990	
+84		"Elzas, M.S. et.al."	Modelling and Simulation Methodology	N.-Holland		
+85	"Gusgen, H. W."		CONSAT: A System for Constraint Satisfaction	"Morgan Kaufmann Publisers, Inc."	1989	
+86	"Osherson, D. et.al."		Systems that Learn	M.I.T	1986	
+87		"Daniel N. Osherson, Edward E. Smith"	Thinking	M.I.T	1990	
+88		"Daniel N. Osherson, Howard Lansnik"	Language	M.I.T.	1990	
+89		"Daniel N. Osherson, Stephen M. Kosslyn, John M. Hollerbach"	Visual Cognition and Action 	M.I.T.	1990	
+90	"Johnson, W. L."		Intension-Based Diagnosis of Novice Programming Errors	"Morgan Kaufmann Publisers, Inc."	1986	
+91	"Murray, W. R."		Auomatic Program Debugging for Intelligent Tutoring Systems	"Morgan Kaufmann Publishers, Inc."	1988	
+92	"Musen, M. A."		Automatic Generation of Model-Based Knowledge-Acquisition Tools	"Morgan Kaufmann Publishers, Inc."	1989	
+93		"Perros, H. G. et.al."	Queueing Networks with Blocking	North-Holland	1989	8
+94		"McAleese, R."	Hypertext: Theory in Practice	ABLEX	1989	
+95	"Kirkerud, B."		Systematic Object-Oriented Programming with Simula	Addison-Wesley	1990	
+96		"Frasson, C. et.al."	Intelligent Tutoring Systems: At the crossroad of artificial intelligence and education	Abrex Publishing Corporation	1989	
+97	"Diaper, D."		Task analysis for Human-Computer Interaction	Ellis Horwood	1989	
+98		"Coyne, R. D. et.al."	Knowledge-Based Design Systems	Addison-Wesley	1989	10
+99		"Elzas, M. S. et.al."	Modelling and Simulation Methodology: Knowledge System Paradigms	North Holland	1989	10
+100	"Miller, M. F."		Single-Layer Wire Routing and Compaction	MIT Press	1989	11
+101	"Schindler, M. J."		Computer-Aided Software Design and CASE	John-Wiley	1990	2
+102		情報システムハンドブック編集委員会	情報システムハンドブック	培風館	1989	12
+103	Lin Padgham		An Imperative Object Oriented System	Linkoping	1989	10
+104	Bengt Lennartsson		Muluti-Level Software Architectures	Linkoping	1989	10
+105	Johan Fagerstrom		Two Contributions on Debugging Distributed System	Linkoping		
+106	Mikael R. K.		What should a Programming Environment for Threaded	Linkoping	1989	10
+107	Mariam Kamkar，Nahid Shahmehri		Affect-Chaining and Dependency Oriented Flow Analysis	Linkoping	1989	10
+108	Andrzej Lingas		Voronoi Diagrams with Barriers and the Shortest Diagonal Problem	Linkoping	1989	10
+109	Andrzej Lingas，Maciej M. Syslo		A Polynomial-Time Algorithm for Subgraph Isomorphism	Linkoing	1989	10
+110	Andrzej Lingas		Greedy Triangulation can be Efficiently Implemented	Linkoping	1989	10
+111	Andrzej Lingas		Subgraph Isomorphism for Connected Graphs of Bounded Valence	Linkoping	1989	10
+112	Christos Levcopoulos，Jyrki Katajaimen		AN optimal Expected-Time Parallel Algorithm for Voronoi Diagrams 	Linkoping	1989	10
+113	Hristo N. Djidjev，Andrzeg Lingas		An O-Algorithm for Computing a Link Center in a Simple Polygon	Limkoping	1989	10
+114	廣瀬　健		コンピュータソフトウェア事典	丸善	1990	
+115			UNIX新時代	日経BP社	1990	7
+116	"Williams, S. A."		Prpgramming Models for Parallel Systems	John-Wiley	1990	
+117	"Gallagher, J."		Object-Oriented Programming Systems			
+118	John S. Murphy，Karl G. Balke	J. Ranade	Software Diagraming	McGraw-Hill Book	1989	
+119		"M. Harrison, H. Thimbleby"	Formal Methods in Human Computer Interaction	Cambridge	1990	
+120		Brenda Laurel	The ART of Human Computer Interface Design	Addison-Wesley	1990	
+121		"Sueann Ambron, Kristina Hooper"	Learning with INTERACTIVE MULTIMEDIA	Microsoft Press	1990	
+122		Irne Greif	Computer-Supported Cooperative Work: A Book of Readings	Morgan Kaufmann Publishers	1989	
+123	Brian W. Kernighan，Dennis M. Ritchie		Programming Language	Prentice Hall	1988	
+124	Grady Booch		Object Oriented Design with Applications	The Benjamin/Cummings Publising Company 	1991	
+125		森口　繁一	ソフトウェア品質ガイドブック	日本規格協会	1990	7
+126	河合　慧		プログラミングの方法	岩波書店	1988	6
+127	"Houbak, N."		A Simulation Language: User's Guide	Springer-Verlag	1990	
+128	"Maes, P."		Computational Reflection. Research Notes in Artficial Intelligence	Pitman		
+129		"Maurizio Lenzerini, Daniele Nardi, Maria Simi"	Inheritance Hierarchies in Knowledge Represention and Programming Language	John-Wiley	1991	
+130	"Brockmann, R. J."		Writing Better Computer User Documentation	John-Wiley	1990	
+131	"Mayer, B."		Object-Oriented Software Construction	Prentice-Hall		
+132	"Rodriquez, W."		Visualizlation	Mcgraw-Hill	1990	
+133		Rozenberg. G	Advances in Petri Nets 1989	Springer-Verlag	1990	1
+134	Maxine D. Brown	Michael Heck	PHIGS  階層的グラフィック・システム	日経BP社	1989	4
+135	Carma McClure，三井銀総合研究所訳		CASE  ソフトウェアの自動化	日経BP	1990	
+136	"Charlton, C."		Principles of Computer Organization '90	Mcgraw-Hill		
+137	"Cockton, G."		Engineering for Human-Computer Interaction	N-holland	1990	
+138	"Evans, M. W."		Software Configuration Management	John-Wiley		
+139	"Gorlen, K. E."		Data Abstraction and Object Oriented Programming in C++	John-Wiley		
+140	"Holt, P.， N. Williams"		Software Documentation	McGraw-Hill		
+141	Wilf R. Lalond，John R. Pugh		Inside Smalltalk Vol.1	Perntice-Hall	1990	
+142	Wilf R. Lalonde		Inside Smalltalk Vol.2	Perntice-Hall	1990	9
+143	"Chang, S. K."		Visual Language and Visual Programinng	Plenum	1990	
+144	Bertrand Meyer		オブジェクト指向入門	アスキー出版局	1990	11
+145		Melvyn A. Goodale	Vision and Action: The Control of Grasping	Ablex	1990	
+146	"Goranzon, M.，Florin, M."		"Artficial Intelligence, Culture and Language"	Springer-Verlag	1990	
+147		"J.E. Hayes, D. Michie, E. Tyugu"	Machine Intelligence 12	Oxford 	1991	
+148	"Kreczmar, A.，Salwicki, A."		LOGLAN '88 Report on the Programming Language	Springer-Verlag	1990	
+149		Sandra Marcus	Knowledge Acquisiton: Selected Reserch and Commentary	Kluwer	1990	
+150		Michael L. Mavrovouniotis	Artificial Intelligence in Process Engineering	Academic	1990	
+151	"Mueller, E. T."		Daydreaming in Human and Machines	Ablex	1990	
+152	"Weicheslberger, K."		A Methodology for Uncertainty in Knowledge-Based systems	Springer-Verlag	1990	
+153	"Futo, I.，Gergely, T."		Artficial Intelligence in Simulation	E.Horwood		
+154			OSF/Motif Application Environment Specification	Perntice-Hall	1990	
+155			OSF/Motif Style Guide	Perntice-Hall	1990	
+156			OSF/Motif User's Guide	Perntice-Hall	1990	
+157	"Bhatnagar, S. C."		Information Technology in Developing Countries	N.Holland	1990	
+158		Shi-Kuo Chang	Principles of Visual Programming Systems	Perntice-Hall	1990	
+159	"Nielsen, J."		Hypertext and Hypermedia	Acaedmic	1990	
+160	"Saraswat, V. A."		Concurrent Constraint Programming Language	M.I.T.	
+161	"Allen, A. O."		"Probability, Statstics, and Queueing Theory with Computer Science"	Academic	1990
+162	"Reilly, M."		A Performance Monitor for Parellel Programs	Academic	1990
+163		"Simmons, M., Rebbecca Koskela"	Performance Instrumentation and Visualization	Addison-Wesley	1990
+164	"Thimbleby, H."		User Interface Design	Addison-Wesley	1990
+165	"Kim, S."		Essence of Creativity: A Guide to Tackling Difficult Problemes	Oxford	1990
+166		"Laurel, B."	The Art of Human-Computer Interface Design	Addison-Wesley	
+167	"Norrie, D. H."	"G. Goos, J. Hartmanis"	Computer Assisted Lerarning	Springer-Verlag	1990
+168		Daniel Thalmann	Scientific Visualization and Graphic Simulation	John-Wiley	1990
+169		Charles E. Thorpe	Vision and Navigation 	Kluwer	1990
+170	"Winblad, A."		Object-Oriented Programming	Addison-Wesley	1990
+171	"Gorny, P."	"G. Goos, Hartmanis"	Visualization in Human-Computer Interaction	Springer-Verlag	1990
+172		L.F. Pau	Mapping and Spatial Modelling for Navigation	Springer-Verlag	1990
+173	"Saleh, R. A."		Mixed-Mode Simulation	Kluwer	1990
+174	"Mullin, M."		Rapid Prototyping for Object Oriented Sysyems	Addison-Wesley	1990
+175	"Wisskirchen, P."		Object-Oriented Graphics	Springer-Verlag	1990
+176	"Kim, W."		Introduction to Object-Oriented Databases	M.I.T.	1990		
+177	"Bodker, S."		Through the Interface	Lawrence	1991		Library of Congress Cataloging-in-Publication Data
+178		D. Browne	Adaptive User Interfaces	Academic	1990		
+179	"Corbett, M. J.，Lauge Baungaard Rasmussen，Felix Rauner"		Crossing the Border	Springer-Verlag	1991		The Social and Engineering design of Computer Integrated Manufacturing Systems
+180	"Gottlob, G."	W. Nejdl	Expert Systems in Engineering　Principles and Applications	Springer-Verlag	1990		
+181	"Hirsh, H."		Incremental Version-Space Merging: A General Framework for Concept Learning	Kluwer	1990		
+182		"David H. Jonassen, Heinz Mandl"	Designing Hypermedia for Learning	Springer-Verlag	1989		
+183		Karen L. McGraw	Readings in Knowledge Acoquisition: Current Practices and trends	E.Horwood	1990		
+184		K. M. Kaiser	Desktop Information Technology	N-Holland	1990		
+185	"Corre, A. D."		Icon Programming for Humanists	Perntice-Hall	1990		
+186			OSF/Motif Programmer's Guide	Perntice-Hall	1990		
+187			OSF/Motif Programmer's Reference Manual	Perntice-Hall	1990		
+188	"Chinell, D. F."		System Documentation: The IN-LINE Approach	John-Wiley	1990		Create a Methodology for Writing Documentation Custmized to your needs 
+189	"Coad, P.，E. Yourdon"		Object-Oriented Analysis	Perntice-Hall	1990		
+190	"Hopkins, T."		A first Course in Smalltalk-80	Perntice-Hall			
+191	"King, P."		Computer and Communication System Performance Modelling	Perntice-Hall	1990		
+192	"Mcknight, C."		Hypertext Reserch Pracitce	Cambridge		
+193	"Mayer, B."		The Language and Environment	Perntice-Hall		
+194	"Young, D."		Introduction to X Window System	Perntice-Hall		
+195			UNIX新時代	日経BP	1990	
+196			Smalltalk オブジェクト指向プログラミング		1990	
+197	A.ハート，神林　靖訳		知識獲得ハンドブック	啓学出版	1989	
+198		長尾　真，石田　晴久　etc.	岩波情報科学辞典	岩波書店	1990	5
+199	寺口　敏伸	富士ゼロックス　ドキュメントエンジニアリング部	マニュアルづくりのマニュアル	プレジデント社	1990	10
+200			1989 IEEE Workshop on Visual Language	IEEE	1989	
+201			1988 IEEE Workshop on Visual Languages	The Computer Society	1988	
+202			23rd Annual Simulation Symposium	IEEE		
+203			"AI, Simulation & Planning in High Autonomy"	IEEE		
+204	"Richard Zeigfeld, John Tarp "		"Desktop Publishing for the Writer: Designing, Writing and Developing"	IEEE	1989	
+205	John Cameron		JSP & JSD - The Jacson Approach to Software Development	IEEE		
+206	"Sol Shatz, Jia-Ping Wang"		Distrbuted-Software Engineering 	IEEE	1989	
+207	Will Tracz		Software Reuse-Emerging Technology	IEEE	1988	
+208		Heki Shibata	Transactions of the 11th International Confeernce on Smirt	Smirt 11	1991
