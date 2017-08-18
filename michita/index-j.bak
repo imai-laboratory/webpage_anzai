@@ -1,0 +1,108 @@
+<BASE HREF="http://www.ayu.ics.keio.ac.jp/~michita/">
+<HTML>
+
+<!-- ------------------------------------------------------------ -->
+<HEAD>
+<TITLE>Michita's Information</TITLE>
+<STYLE TYPE='text/css'><!--BODY{background: #fff no-repeat}.cnt{font-family:Helvetica, Verdana, Arial, sans-serif; font-size:9px; color:#999;}TD{ font-size:13px; color:#ccc; }P{ font-size:13px; color:#ccc; }b{ font-size:13px; color:#333; }A:link{ font-size:13px; color:#f00; text-decoration:none;}A:visited{ font-size:13px; color:#666; text-decoration:none; }A:active{ font-size:13px; color:#6f6; text-decoration:none; }--></STYLE>
+</HEAD>
+
+<!-- ------------------------------------------------------------ -->
+<!--<body BGCOLOR="#ffdead" TEXT="#000000">-->
+
+<!-- <body BGCOLOR="#ffffff" TEXT="#000000"  link="#f00700" vlink="#ffffff" alink="#00a822">-->
+
+<H1>
+Wellcome to Michita Imai's Home Page  <img src="http://www.yk.rim.or.jp/~michita/cgi-bin/wwwcount2.cgi?gif"><p>
+</H1>
+
+<a href="index.html">English_version</a>
+<hr>
+
+<b>
+
+
+
+
+<div align="center"><center>
+<table border="0">
+  <tr>
+   <td valign="middle" rowspan="8">
+   </a>
+   </td>
+   <td valign="middle">
+    <strong><small><font size = 4 > <b><a href = "michita-j.html">自己
+    紹介</a></b></font></small></strong>
+   </td>
+  </tr>
+  <tr>
+    <td valign="middle">
+      <strong><small><font size = 4 ><a href="publishi2.html"><b>発表
+      文献</b></a></font></small></strong>
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle">
+      <strong><small><font size = 4 ><a
+      href="http://www.mis.atr.co.jp/everyday"><b>ロボビープロジェクト</b></a></font></small></strong>
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle">
+      <strong><small><font size = 4 ><a
+      href="http://www.mic.atr.co.jp/~michita"><b>ATRでの研究</b></a></font></small></strong>
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle">
+     <strong><small><font size = 4 ><b>研究テーマ(Under Construction)</b></font></small></strong>
+    </td>
+  </tr>
+  <tr>
+    <td valign="middle">
+     <strong><small><font size = 4 ><b><a href="http://www.ayu.ics.keio.ac.jp/~michita/alfa/">Alfa Romeo</a></b></font></small></strong>
+    </td>
+  </tr>
+</table>
+</center></div>
+
+
+
+
+
+
+
+<hr>
+<center>
+<img src="icon/car_icon.bmp" >
+<img src="icon/enterteinment_icon.bmp">
+<img src="icon/h6aa_icon.bmp">
+<img src="icon/life_icon.bmp">
+<img src="icon/news_icon.bmp">
+<img src="icon/research_icon.bmp">
+<a href="tour.html"><img src="icon/tour_icon.bmp" border=0></a><p> 
+
+
+
+<img src="icon/tour_icon.bmp" style="height:2.5%;width:2.5%;" > Dec.29-30.2002 <a href="021231/Trip_to_Wakayama.html">和歌山紀行</a>
+
+</center>
+<hr>
+
+
+<div align="right"><right>
+<table>
+<tr>
+<td>
+<a href="http://www.ayu.ics.keio.ac.jp/">慶応義塾大学理工学部<br>情報工学科安西・今井研究室</a><br>
+<adress>
+<a href="mailto:michita@ayu.ics.keio.ac.jp">michita@ayu.ics.keio.ac.jp</a>
+</adress>
+</td>
+</tr>
+</table>
+</right></div>
+
+
+</body>
+</html>
