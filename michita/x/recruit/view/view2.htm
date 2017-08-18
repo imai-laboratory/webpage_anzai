@@ -1,0 +1,110 @@
+<html>
+ <head>
+  <title>進路希望調査</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <link rel="stylesheet" href="research.css">
+ </head>
+ <body class="input">
+  <table class="section"><tr><td class="section">
+   <h2>進路希望本調査 [詳細表示]</h2>
+  </td></tr></table>
+  <br>
+  <u>記入日: <%lastupdate%></u>
+  <table class="chousahyou_soto"><tr><td>
+   <table class="chousahyou"><tr>
+    <td class="chousahyou_koumoku" width="30%">学科・専攻</td>
+    <td class="chousahyou_koumoku" width="15%">学籍番号</td>
+    <td class="chousahyou_koumoku" width="40%">氏名</td>
+    <td class="chousahyou_koumoku" width="15%">性別</td>
+   </tr><tr>
+    <td class="chousahyou_bold"><%gakunen%></td>
+    <td class="chousahyou_bold"><%gakuseki%></td>
+    <td class="chousahyou_bold"><%name%></td>
+    <td class="chousahyou"><%seibetsu%></td>
+   </tr></table><table class="chousahyou"><tr>
+    <td class="chousahyou_koumoku" width="35%">研究室</td>
+    <td class="chousahyou_koumoku" width="15%">内線</td>
+    <td class="chousahyou_koumoku" width="50%">メールアドレス</td>
+   </tr><tr>
+    <td class="chousahyou"><%lab%></td>
+    <td class="chousahyou"><%naisen%></td>
+    <td class="chousahyou"><%email%></td>
+   </tr></table><table class="chousahyou"><tr>
+    <td class="chousahyou_koumoku" width="100%">現住所</td>
+   </tr><tr>
+    <td class="chousahyou"><%addr%></td>
+   </tr></table><table class="chousahyou"><tr>
+    <td class="chousahyou_koumoku" width="100%">帰省先</td>
+   </tr><tr>
+    <td class="chousahyou"><%kisei%></td>
+   </tr></table><table class="chousahyou"><tr>
+    <td class="chousahyou_koumoku" width="50%">電話番号</td>
+    <td class="chousahyou_koumoku" width="50%">携帯電話</td>
+   </tr><tr>
+    <td class="chousahyou"><%tel%></td>
+    <td class="chousahyou"><%keitai%></td>
+   </tr></table><table class="chousahyou"><tr><td class="chousahyou_space"><br></td></tr></table><table class="chousahyou_kibou"><tr>
+    <td class="chousahyou_kibou" colspan=2>第1希望</td>
+   </tr><tr>
+    <td class="chousahyou_koumoku" colspan=2><br></td>
+   </tr><tr>
+    <td class="chousahyou" colspan=2><%kibou1%></td>
+   </tr><tr>
+    <td class="chousahyou_koumoku" width="70%">企業名・大学名(自由応募・進学の場合)</td>
+    <td class="chousahyou_koumoku" width="30%">内々定</td>
+   </tr><tr>
+    <td class="chousahyou"><%kigyoumei1%></td>
+    <td class="chousahyou"><%nainaitei1%></td>
+   </tr><tr>
+    <td class="chousahyou_koumoku" colspan=2>希望理由(就職希望のみ)</td>
+   </tr><tr>
+    <td class="chousahyou" colspan=2><%riyuu1%></td>
+   </tr><tr>
+    <td class="chousahyou_koumoku" colspan=2>現在までの活動状況</td>
+   </tr><tr>
+    <td class="chousahyou" colspan=2><%katsudou1%></td>
+   </tr></table><table class="chousahyou"><tr><td class="chousahyou_space"><br></td></tr></table><table class="chousahyou_kibou"><tr>
+    <td class="chousahyou_kibou" colspan=2>第2希望</td>
+   </tr><tr>
+    <td class="chousahyou_koumoku" colspan=2><br></td>
+   </tr><tr>
+    <td class="chousahyou" colspan=2><%kibou2%></td>
+   </tr><tr>
+    <td class="chousahyou_koumoku" width="70%">企業名・大学名(自由応募・進学の場合)</td>
+    <td class="chousahyou_koumoku" width="30%">内々定</td>
+   </tr><tr>
+    <td class="chousahyou"><%kigyoumei2%></td>
+    <td class="chousahyou"><%nainaitei2%></td>
+   </tr><tr>
+    <td class="chousahyou_koumoku" colspan=2>希望理由(就職希望のみ)</td>
+   </tr><tr>
+    <td class="chousahyou" colspan=2><%riyuu2%></td>
+   </tr><tr>
+    <td class="chousahyou_koumoku" colspan=2>現在までの活動状況</td>
+   </tr><tr>
+    <td class="chousahyou" colspan=2><%katsudou2%></td>
+   </tr></table><table class="chousahyou"><tr><td class="chousahyou_space"><br></td></tr></table><table class="chousahyou_kibou"><tr>
+    <td class="chousahyou_kibou" colspan=2>第3希望</td>
+   </tr><tr>
+    <td class="chousahyou_koumoku" colspan=2><br></td>
+   </tr><tr>
+    <td class="chousahyou" colspan=2><%kibou3%></td>
+   </tr><tr>
+    <td class="chousahyou_koumoku" width="70%">企業名・大学名(自由応募・進学の場合)</td>
+    <td class="chousahyou_koumoku" width="30%">内々定</td>
+   </tr><tr>
+    <td class="chousahyou"><%kigyoumei3%></td>
+    <td class="chousahyou"><%nainaitei3%></td>
+   </tr><tr>
+    <td class="chousahyou_koumoku" colspan=2>希望理由(就職希望のみ)</td>
+   </tr><tr>
+    <td class="chousahyou" colspan=2><%riyuu3%></td>
+   </tr><tr>
+    <td class="chousahyou_koumoku" colspan=2>現在までの活動状況</td>
+   </tr><tr>
+    <td class="chousahyou" colspan=2><%katsudou3%></td>
+   </tr></table>
+  </td></tr></table>
+ </body>
+</html>

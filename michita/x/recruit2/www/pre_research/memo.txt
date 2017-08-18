@@ -1,0 +1,12 @@
+DBˆê——
+# psql -l
+
+DBì¬
+# createdb -E EUC_JP shushoku
+
+TABLE users ì¬
+shushoku=# create table users ( userid char (8) not null , password char (8) not null , username text not null , kibou1 int default 0, kibou2 int default 0, kibou3 int default 0);
+
+TABLE company ì¬
+shushoku=# create table company ( id int not null unique , name text not null ,category int not null default 1, max int default 0, kibou1 int default 0 , kibou2 int default 0, kibou3 int default 0);
+

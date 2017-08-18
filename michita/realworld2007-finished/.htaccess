@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Input ID and Password."
+AuthUserFile /home/ylab/michita/www/pw/passwd.dat
+require valid-user

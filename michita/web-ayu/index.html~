@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<BASE HREF="http://www.ayu.ics.keio.ac.jp/~michita/web-ayu/">
+<!-- <BASE HREF="http://www.ayu.ics.keio.ac.jp/"> -->
+<HTML>
+<!--made by Web Design Templates http://wdt.pekori.jp/-->
+<HEAD>
+<TITLE>Anzai, Imai Laboratory</TITLE>
+<STYLE type="text/css">
+<!--
+BODY{
+  margin : 0px;
+  font-size : 13px;
+}
+TD{
+  font-size : 13px;
+}
+.line{
+  color : #FFFFFF;
+  background-color : #333333;
+  font-size : 13px;
+  padding : 4px;
+  text-align : justify;
+  text-justify : distribute-all-lines;
+}
+.line2{
+  color : #FFFFFF;
+  background-color : #333333;
+  font-size : 13px;
+  padding : 4px;
+  text-align : right;
+  text-justify : distribute-all-lines;
+}
+.black{
+  background-color : #333333;
+  width : 10px;
+}
+.cont{
+  width : 100px;
+  padding : 5px;
+}
+A:link{ font-size:13px; color:#ff0000; text-decoration:none;}
+A:visited{ font-size:13px; color:#333333; text-decoration:none; }
+A:active{ font-size:13px; color:#0000ff; text-decoration:none; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+<TABLE border="0" width="100%" height="100%" cellpadding="0" cellspacing="0">
+    <TR>
+      <TD align="center">
+     <DIV class="line">
+      Human Robot Computer Interaction</DIV> 
+<!--     <DIV class="line">Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°</DIV>-->
+      <TABLE border="0" width="100%" height="90" cellpadding="0" cellspacing="0">
+          <TR>
+            <TD class="cont" align="center"><SPAN style='font-family :
+            "Impact"'>Anzai, Imai Lab.</SPAN></TD>
+            <TD class="black"><BR>
+            </TD>
+            <TD class="cont">
+	      <img src="img/robovie-face04.jpg">
+            </TD>
+            <TD class="black"><BR>
+            </TD>
+            <TD class="cont">
+            +<a href="project.html">project</a><BR>
+            <BR>
+            +<a href="group.html">group</a><BR>
+             <BR>
+            +<a href="members.html">members</a><BR>
+            </TD>
+            <TD class="black"><BR>
+            </TD>
+            <TD class="cont" align="center">
+	      <img src="img/sholder02.jpg">
+            </TD>
+            <TD class="black"><BR>
+            </TD>
+            <TD class="cont">
+            +<a href="papers.html">publications</a><BR><BR>
+            +<a href="link.html">link</a><BR>
+            </TD>
+            <TD class="black"><BR>
+            </TD>
+            <TD class="cont">
+	      <img src="img/R-face03.jpg">
+             <BR>
+            </TD>
+            <TD class="black"><BR>
+            </TD>
+            <TD class="cont">
+             +<a href="hoge">members only</a>
+            <BR>
+            </TD>
+          </TR>
+      </TABLE>
+<!--      <DIV class="line">Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°Å°</DIV>
+-->
+<DIV class="line2" align="right" style="font-family :
+			Verdana,Arial,sans-serif;font-size :
+			x-small;">
+Copyright -  &copy; <A  href="mailto:webmaster@ayu.ics.keio.ac.jp">Anzai-Imai Lab.</A> 2005
+			All Rights Reserved        </DIV>
+
+      <BR>
+      <SPAN style="font : 7pt Arial,Helvetica">
+      Physically Grounded
+      Human Robot Computer Interaction<BR>
+      on Multi Agent Environment<BR>
+      <BR>
+      <a href="http://www.ics.keio.ac.jp/">http://www.ics.keio.ac.jp/</a></SPAN></TD>
+    </TR>
+</TABLE>
+</BODY>
+</HTML>
+
+

@@ -1,0 +1,26 @@
+<html>
+ <head>
+  <title>進路希望調査</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <link rel="stylesheet" href="research.css">
+ </head>
+ <body class="login">
+  <table class="section"><tr><td class="section">
+   <h2>進路希望本調査 [更新]</h2>
+  </td></tr></table>
+  データを更新しました。
+  <form method="POST" action="login.cgi" name="login">
+   <table><tr>
+    <th>学籍番号</th>
+    <td><input type="text" name="gakuseki" maxlength=8 value="<%gakuseki%>"></td>
+   </tr><tr>
+    <th>パスワード</th>
+    <td><input type="password" name="password" maxlength=8 value="<%password%>"></td>
+   </tr><tr>
+    <td colspan=2><input type="submit" value="確認"></td>
+   </tr></table>
+  </form>
+  <p><%errormessage%></p>
+ </body>
+</html>

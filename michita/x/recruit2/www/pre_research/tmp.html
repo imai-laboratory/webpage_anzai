@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="ja">
+<head><title>進路希望調査</title>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=euc-jp">
+<META HTTP-EQUIV="CONTENT-STYLE-TYPE" CONTENT="CONTENT-STYLE-TYPE"> 
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<LINK REL="stylesheet" HREF="recruit.css">
+</head>
+
+<body>
+<img src="top.png"><br><br>
+
+<center>
+<table width="50%">
+<tr><td class=usage>使い方</td></tr>
+<tr><td class=usage align=left>希望する進路を選んで、変更ボタンを押してください。変更後にリロードをすると直前の変更が再度実行されてしまいます。最新の情報に更新したいときは、下の「画面の更新」ボタンを押してください。推薦は残りの枠によってアイコンが変わります。<br>
+画面が小さいと見づらいかもしれませんがご了承ください。横幅が1280あれば大丈夫なようです。<br>
+なにか動作がおかしいと思ったら、就職担当 (<a href="mailto:shushoku@ics.keio.ac.jp">shushoku@ics.keio.ac.jp</a>) までご連絡ください。<br>
+<!-- em>１３日午前１０時ごろに，ネットワークが断続的に切断される可能性があります．その間は使えなくなりますのでご注意ください．</em --></td></tr>
+</table>
+<form method=POST action=recruit.cgi><input type=submit value="画面の更新"></form></center>
+ただいまの参加者: <%sankasya%> 名<br>
+
+<span class=error><%errormessage%></span>
+<center>
+<form method=POST action="recruit.cgi" name="modify">
+<table width="50%" class=modify>
+<tr><td colspan="3" class=modify_title><%userid%> (<%username%>)</td></tr>
+<tr><td colspan="3" class=modify_log>Last login: <%last_login%></td></tr>
+<tr><td colspan="3" class=modify_log>Last modified: <%last_modified%></td></tr>
+<tr><td colspan="3" class=modify_title>現在のあなたの応募状態</td></tr>
+<tr><td class=modify>第1希望</td><td class=modify>第2希望</td><td class=modify>第3希望</td></tr>
+<tr><td class=modify><%mykibou1%></td><td class=modify><%mykibou2%></td><td class=modify><%mykibou3%></td></tr>
+<tr><td class=modify>
+<%kibou1%>
+</td><td class=modify>
+<%kibou2%>
+</td><td class=modify>
+<%kibou3%>
+</td></tr>
+</td></tr>
+<tr><td colspan="3" class=modify> </td></tr>
+<tr><td colspan="3" class=modify>進路を選択し、変更ボタンを押してください。第1希望から第3希望までは重複する項目を選択することはできません。ただし、第2・第3を未選択のままにすることはできます。</td></tr>
+<tr><td colspan="3" class=modify><input type=button value="変更" onclick="javascript:
+	res=confirm('本当に変更しますか？');
+	if (res==true){
+		if (document.modify.kibou1.selectedIndex==document.modify.kibou2.selectedIndex || document.modify.kibou1.selectedIndex==document.modify.kibou3.selectedIndex || ((document.modify.kibou2.selectedIndex!=0 || document.modify.kibou3.selectedIndex!=0) && document.modify.kibou2.selectedIndex==document.modify.kibou3.selectedIndex)){
+			alert('希望する進路はそれぞれ違うものを選んでください。');
+		}else{
+			submit();
+		}
+	}else{
+	}"></td></tr>
+</table><input type=hidden name="stage" value="modify"></form>
+</center>
+<br><br>
+<center>
+<!--<table width=80%>-->
+<table width=95%>
+<tr><td colspan="8" align=right><img src="icon_01.gif"> 余裕あり  |  <img src="icon_02.gif"> 残りわずか  |  <img src="icon_03.gif"> 定員オーバー</td></tr>
+<!--<tr><td width="5%"></td><td width="40%"></td><td width="10%"></td><td width="15%"></td><td width="10%"></td><td width="10%"></td><td width="10%"></td></tr>-->
+<tr><td width="3%"></td><td width="30%"></td><td width="10%"></td><td width="10%"></td><td width="9%"></td><td width="9%"></td><td width="9%"></td><td width="20%"></tr>
+<!--<tr><td class=title colspan="4">進学・就職</td><td class=title colspan="3">現在の応募人数</td></tr>-->
+<tr><td class=title colspan="4">進学・就職</td><td class=title colspan="3">現在の応募人数</td><td class=title>備考</td></tr>
+<!--<tr><td class=title_small>ID</td><td class=title_small>進学</td><td class=title_small>種別</td><td class=title_small></td><td class=title_small>第1希望</td><td class=title_small>第2希望</td><td class=title_small>第3希望</td></tr>-->
+<tr><td class=title_small>ID</td><td class=title_small>進学</td><td class=title_small>種別</td><td class=title_small></td><td class=title_small>第1希望</td><td class=title_small>第2希望</td><td class=title_small>第3希望</td><td class=title_small></td></tr>
+
+<!-- 進学データ -->
+<%singaku1%>
+<%singaku2%>
+<!-- 進学データ -->
+<tr></tr>
+<tr>
+<td class=title_small>
+	<form method=POST action="recruit.cgi" name="sort">
+		<input type=submit value="ID">
+		<input type=hidden name="stage" value="sort">
+		<input type=hidden name="sortby" value="id">
+	</form>
+</td>
+<td class=title_small>
+	<form method=POST action="recruit.cgi" name="sort">
+		<input type=submit value="企業名">
+		<input type=hidden name="stage" value="sort">
+		<input type=hidden name="sortby" value="company_name">
+	</form>
+</td>
+<td class=title_small>
+	<form method=POST action="recruit.cgi" name="sort">
+		<input type=submit value="種別">
+		<input type=hidden name="stage" value="sort">
+		<input type=hidden name="sortby" value="category">
+	</form>
+</td>
+<td class=title_small>
+	<form method=POST action="recruit.cgi" name="sort">
+		<input type=submit value="応募枠">
+		<input type=hidden name="stage" value="sort">
+		<input type=hidden name="sortby" value="max">
+	</form>
+</td>
+<td class=title_small>
+	<form method=POST action="recruit.cgi" name="sort">
+		<input type=submit value="第1希望">
+		<input type=hidden name="stage" value="sort">
+		<input type=hidden name="sortby" value="kibou1">
+	</form>
+</td>
+<td class=title_small>
+	<form method=POST action="recruit.cgi" name="sort">
+		<input type=submit value="第2希望">
+		<input type=hidden name="stage" value="sort">
+		<input type=hidden name="sortby" value="kibou2">
+	</form>
+</td><td class=title_small>
+	<form method=POST action="recruit.cgi" name="sort">
+		<input type=submit value="第3希望">
+		<input type=hidden name="stage" value="sort">
+		<input type=hidden name="sortby" value="kibou3">
+	</form>
+</td><td class=title_small></td>
+</tr>
+<!-- データ -->
+<%company%>
+<!-- データ -->
+</table></center>
+
+<hr>
+<a href="mailto:shushoku@ics.keio.ac.jp">shushoku@ics.keio.ac.jp</a>
+</body>
+</html>

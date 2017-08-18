@@ -1,0 +1,143 @@
+<html>
+ <head>
+  <title>進路希望調査</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <link rel="stylesheet" href="research.css">
+ </head>
+ <body class="input">
+  <table class="section"><tr><td class="section">
+   <h2>進路希望本調査 [希望調査票入力]</h2>
+  </td></tr></table>
+  <p>
+   質問、動作がおかしいなどありましたら、就職担当
+   (<a href="mailto:shushoku@ics.keio.ac.jp">shushoku@ics.keio.ac.jp</a>)
+   までご連絡下さい。
+  </p>
+  <u>記入日: <%lastupdate%></u>
+  <form method="post" action="research.cgi" name="research">
+   <table class="chousahyou_soto"><tr><td>
+    <table class="chousahyou"><tr>
+     <td class="chousahyou_koumoku" width="30%">学科・専攻</td>
+     <td class="chousahyou_koumoku" width="15%">学籍番号</td>
+     <td class="chousahyou_koumoku" width="40%">氏名</td>
+     <td class="chousahyou_koumoku" width="15%">性別</td>
+    </tr><tr>
+     <td class="chousahyou_bold"><%gakunen%></td>
+     <td class="chousahyou_bold"><%gakuseki%></td>
+     <td class="chousahyou_bold"><%name%></td>
+     <td class="chousahyou">
+      <select class="chousahyou" name="seibetsu"><%seibetsu%></select>
+     </td>
+    </tr></table><table class="chousahyou"><tr>
+     <td class="chousahyou_koumoku" width="35%">研究室</td>
+     <td class="chousahyou_koumoku" width="15%">内線</td>
+     <td class="chousahyou_koumoku" width="50%">メールアドレス</td>
+    </tr><tr>
+     <td class="chousahyou"><input class="chousahyou" type="text" name="lab" value="<%lab%>"></td>
+     <td class="chousahyou"><input class="chousahyou" type="text" name="naisen" value="<%naisen%>"></td>
+     <td class="chousahyou"><input class="chousahyou" type="text" name="email" value="<%email%>"></td>
+    </tr></table><table class="chousahyou"><tr>
+     <td class="chousahyou_koumoku" width="100%">現住所</td>
+    </tr><tr>
+     <td class="chousahyou"><input class="chousahyou" type="text" name="addr" value="<%addr%>"></td>
+    </tr></table><table class="chousahyou"><tr>
+     <td class="chousahyou_koumoku" width="100%">帰省先</td>
+    </tr><tr>
+     <td class="chousahyou"><input class="chousahyou" type="text" name="kisei" value="<%kisei%>"></td>
+    </tr></table><table class="chousahyou"><tr>
+     <td class="chousahyou_koumoku" width="50%">電話番号</td>
+     <td class="chousahyou_koumoku" width="50%">携帯電話</td>
+    </tr><tr>
+     <td class="chousahyou"><input class="chousahyou" type="text" name="tel" value="<%tel%>"></td>
+     <td class="chousahyou"><input class="chousahyou" type="text" name="keitai" value="<%keitai%>"></td>
+    </tr></table><table class="chousahyou"><tr><td class="chousahyou_space"><br></td></tr></table><table class="chousahyou_kibou"><tr>
+     <td class="chousahyou_kibou" colspan=2>第1希望</td>
+    </tr><tr>
+     <td class="chousahyou_koumoku" colspan=2><br></td>
+    </tr><tr>
+     <td class="chousahyou" colspan=2>
+      <select class="chousahyou" name="kibou1"><%kibou1%></select>
+     </td>
+    </tr><tr>
+     <td class="chousahyou_koumoku" width="70%">企業名・大学名(自由応募・進学の場合)</td>
+     <td class="chousahyou_koumoku" width="30%">内々定</td>
+    </tr><tr>
+     <td class="chousahyou"><input class="chousahyou" type="text" name="kigyoumei1" value="<%kigyoumei1%>"></td>
+     <td class="chousahyou">
+      <select class="chousahyou" name="nainaitei1"><%nainaitei1%></select>
+     </td>
+    </tr><tr>
+     <td class="chousahyou_koumoku" colspan=2>希望理由(就職希望のみ)</td>
+    </tr><tr>
+     <td class="chousahyou" colspan=2><input class="chousahyou" type="text" name="riyuu1" value="<%riyuu1%>"></td>
+    </tr><tr>
+     <td class="chousahyou_koumoku" colspan=2>現在までの活動状況</td>
+    </tr><tr>
+     <td class="chousahyou" colspan=2><input class="chousahyou" type="text" name="katsudou1" value="<%katsudou1%>"></td>
+    </tr></table><table class="chousahyou"><tr><td class="chousahyou_space"><br></td></tr></table><table class="chousahyou_kibou"><tr>
+     <td class="chousahyou_kibou" colspan=2>第2希望</td>
+    </tr><tr>
+     <td class="chousahyou_koumoku" colspan=2><br></td>
+    </tr><tr>
+     <td class="chousahyou" colspan=2>
+      <select class="chousahyou" name="kibou2"><%kibou2%></select>
+     </td>
+    </tr><tr>
+     <td class="chousahyou_koumoku" width="70%">企業名・大学名(自由応募・進学の場合)</td>
+     <td class="chousahyou_koumoku" width="30%">内々定</td>
+    </tr><tr>
+     <td class="chousahyou"><input class="chousahyou" type="text" name="kigyoumei2" value="<%kigyoumei2%>"></td>
+     <td class="chousahyou">
+      <select class="chousahyou" name="nainaitei2"><%nainaitei2%></select>
+     </td>
+    </tr><tr>
+     <td class="chousahyou_koumoku" colspan=2>希望理由(就職希望のみ)</td>
+    </tr><tr>
+     <td class="chousahyou" colspan=2><input class="chousahyou" type="text" name="riyuu2" value="<%riyuu2%>"></td>
+    </tr><tr>
+     <td class="chousahyou_koumoku" colspan=2>現在までの活動状況</td>
+    </tr><tr>
+     <td class="chousahyou" colspan=2><input class="chousahyou" type="text" name="katsudou2" value="<%katsudou2%>"></td>
+    </tr></table><table class="chousahyou"><tr><td class="chousahyou_space"><br></td></tr></table><table class="chousahyou_kibou"><tr>
+     <td class="chousahyou_kibou" colspan=2>第3希望</td>
+    </tr><tr>
+     <td class="chousahyou_koumoku" colspan=2><br></td>
+    </tr><tr>
+     <td class="chousahyou" colspan=2>
+      <select class="chousahyou" name="kibou3"><%kibou3%></select>
+     </td>
+    </tr><tr>
+     <td class="chousahyou_koumoku" width="70%">企業名・大学名(自由応募・進学の場合)</td>
+     <td class="chousahyou_koumoku" width="30%">内々定</td>
+    </tr><tr>
+     <td class="chousahyou"><input class="chousahyou" type="text" name="kigyoumei3" value="<%kigyoumei3%>"></td>
+     <td class="chousahyou">
+      <select class="chousahyou" name="nainaitei3"><%nainaitei3%></select>
+     </td>
+    </tr><tr>
+     <td class="chousahyou_koumoku" colspan=2>希望理由(就職希望のみ)</td>
+    </tr><tr>
+     <td class="chousahyou" colspan=2><input class="chousahyou" type="text" name="riyuu3" value="<%riyuu3%>"></td>
+    </tr><tr>
+     <td class="chousahyou_koumoku" colspan=2>現在までの活動状況</td>
+    </tr><tr>
+     <td class="chousahyou" colspan=2><input class="chousahyou" type="text" name="katsudou3" value="<%katsudou3%>"></td>
+    </tr></table><table class="chousahyou"><tr>
+     <td class="chousahyou" width="100%">
+      パスワード<input type="password" name="password" maxlength=8 value="<%password%>">
+	  <input type="hidden" name="gakuseki" value="<%gakuseki%>">
+     </td>
+    </tr></table><table class="chousahyou"><tr>
+     <td>注意)</td>
+    </tr><tr>
+     <td>進学または自由応募の場合は企業名・大学名の欄に正式名称を記入すること。</td>
+    </tr><tr>
+     <td>進路未定者は第1希望の欄にその旨を記入すること。</td>
+    </tr></table>
+   </td></tr></table>
+   <input type=submit value="変更">
+  </form>
+  <a href="index.htm">戻る</a>
+ </body>
+</html>

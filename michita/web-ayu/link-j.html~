@@ -1,0 +1,205 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+<!--made by Web Design Templates http://wdt.pekori.jp/-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>Anzai, Imai Laboratory</title>
+<style type="text/css">
+<!--
+body{
+  margin: 0;
+  }
+a:link{/*リンク色*/
+  color: #554977;
+  text-decoration: none;
+  }
+a:visited{/*訪問済みリンク色*/
+  color: #445488;
+  text-decoration: none;
+  }
+a:hover,a:active{/*アクティブリンク色*/
+  color: #5538AA;
+  }
+div.top21{/*全体枠*/
+  font-size: 12px;/*■全体の文字サイズ*/
+  color: #212125;/*■全体の文字色*/
+  margin-top: 0px;/*■ページ上部の余白*/
+  border-left: solid 30px #445488;/*■左端の領域の幅・色*/
+/*  border-right: solid 230px #445488;■右端の領域の幅・色*/
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  }
+.top21 .menu ul{/*メニュー領域の設定*/
+  padding: 0;
+  margin: 0;
+  top: 90px;/*メニュー上部の余白*/
+  left: -20px;
+  position: absolute;
+  z-index: 2;
+  }
+.top21 .menu li{
+  margin: 1px 0 4px 0;/*メニュー間の間隔*/
+  list-style: none;
+  }
+.top21 .menu li a{/*個別リンクの設定*/
+  display: block;
+  text-decoration: none;
+  font-size: 11px;/*文字サイズ*/
+  font-family: Verdana,Arial,sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: #F9F9FF;/*リンク領域の背景色*/
+  border-top: 1px solid #ffcc00;/*#954545リンク領域の枠色*/
+  border-bottom: 1px solid #ffcc00;
+  border-left: 1px solid #ffcc00;
+  border-right: 1px solid #ffcc00;/*#954545右端のマーク*/
+  padding: 0.4em 1em 0.4em 0.5em;
+  width: 100px;/*120リンク領域の横幅*/
+  }
+.top21 .menu li a:hover{/*カーソルを乗せたときの設定*/
+  background-color: #ffff00;/*#E5E5C9背景色*/
+  border-color: #ffcc00;/*#AC3131枠色*/
+  border-right: 10px solid #ffcc00;/*#954545右端のマーク*/
+  }
+.top21 .menu li.active a{/*アクティブなリンクの設定*/
+  border-right: 10px solid #ffcc00;/*#954545右端のマーク*/
+  width: 119px;/*リンク領域の横幅*/
+  }
+.top21 .main{/*真ん中の領域の設定*/
+  background-color: #FFFFFF;/*■背景色*/
+  margin: 0 30px 0 100px;/*右余白・左余白　左余白はリンク領域の横幅に合わせて調節を*/
+  position: relative;
+  z-index: 3;
+  }
+.top21 .main .cont{/*コンテンツ領域の設定*/
+  height: 550px;/*■高さ*/
+  line-height: 120%;/*■行間の設定*/
+  overflow: auto;
+  padding: 0.5em 0.5em 0.5em 1em;
+  border-left: double 3px #445488;/*左の二重線の幅・色*/
+  scrollbar-3dlight-color: #FFFFFF;/*スクロールバーの色設定*/
+  scrollbar-arrow-color: #FFFFFF;
+  scrollbar-darkshadow-color: #FFFFFF;
+  scrollbar-face-color: #445488;
+  scrollbar-highlight-color: #445488;
+  scrollbar-shadow-color: #445488;
+  scrollbar-track-color: #FFFFFF;
+  }
+.top21 h1{/*Site Title部分の設定*/
+  font-size: 13px;/*文字サイズ*/
+  font-family: Tahoma,Arial,sans-serif;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  background-color: #445488;/*背景色*/
+  padding: 0.2em 1em 0.2em 1em;/*内部の余白*/
+  margin: 0;
+  }
+.top21 h2{/*コンテンツ内見出しの設定*/
+  font-size: 11px;/*文字サイズ*/
+  font-family: Tahoma,Arial,sans-serif;
+  border-bottom: solid 3px #445488;/*■下線の幅・色*/
+  padding: 0.2em 1em 0.2em 0.5em;
+  margin: 0.8em 1em 0.6em 0.3em;
+  }
+.top21 h3{/*コンテンツ内見出しの設定*/
+  font-size: 30px;/*文字サイズ*/
+  font-family: Tahoma,Arial,sans-serif;
+  color: #445488;
+/*  border-bottom: solid 3px #445488;■下線の幅・色*/
+  padding: 0.2em 1em 0.2em 0.5em;
+  margin: 0.8em 1em 0.6em 0.3em;
+  }
+.top21 .cont p.box{/*強調する段落*/
+  color: #FFFFFF;
+  background-color: #445488;/*背景色*/
+  margin: 1em 2em 1em 2em;
+  padding: 0.4em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #EDEDFF #121266 #121266 #EDEDFF;
+  }
+.top21 address{/*最下部のアドレス・メール部分*/
+  font-size: 11px;/*文字サイズ*/
+  font-style: normal;
+  font-family: Tahoma,Arial,sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+/*  color: # ;#FFFFFF*/
+  background-color: #ffffff;/*#445488背景色*/
+  padding: 0.2em 1em 0.2em 1em;
+  margin: 0;
+  }
+.dec-left{/*左側の囲み線*/
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  left: -10px;
+  border: solid 2px #445488;/*色・幅*/
+  width: 120px;
+  height: 460px;/*高さ。.contの高さに合わせて調節を*/
+  }
+.dec-right{/*右側の囲み線*/
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  right: -10px;
+  border: solid 2px #445488;/*色・幅*/
+  width: 50px;
+  height: 460px;/*高さ。.contの高さに合わせて調節を*/
+  }
+/* For IE Box */
+*{ box-sizing : border-box}
+*{ -moz-box-sizing : border-box}
+-->
+</style>
+
+</head>
+<body>
+<div class="top21">
+
+<!-- 飾り線用 -->
+<!-- <div class="dec-left"></div><div class="dec-right"></div>-->
+
+<h3><a href="index.html">安西・今井研究室</a></h3>
+
+<div class="menu">
+<ul>
+<li ><a href="project-j.html">Project</a></li>
+<li ><a href="group-j.html">Groups</a></li>
+<li ><a href="members-j.html">Members</a></li>
+<li ><a href="papers-j.html">Papers</a></li>
+<li class="active"><a href="link-j.html">Link</a></li>
+</ul>
+</div>
+
+
+
+
+<div class="main">
+<h1>Link</h1> 
+<div class="cont">
+
+<a href="link.html">English</a>
+
+
+<ul>
+<li>情報工学科</li>
+<li>山崎研究室</li>
+</ul>
+
+
+
+</div>
+<DIV class="line2" align="right" style="font-family :
+			Verdana,Arial,sans-serif;font-size :
+			x-small;">
+Copyright -  &copy; <A  href="mailto:webmaster@ayu.ics.keio.ac.jp">Anzai-Imai Lab.</A> 2005
+			All Rights Reserved        </DIV>
+
+
+</div>
+
+</body>
+</html>
