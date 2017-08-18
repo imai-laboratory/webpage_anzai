@@ -1,0 +1,95 @@
+#!/usr/local/bin/perl
+
+#=====================================================================
+# 題目
+#=====================================================================
+#   名    称: WwwMail Ver3.27
+#   最終更新: 2008年1月14日
+#   作 成 者: 杜甫々
+#   種    別: フリーソフト（私用・商用を問わず利用・改造・流用・再配布可）
+#   最 新 版: http://tohoho.wakusei.ne.jp/
+
+#=====================================================================
+# カスタマイズ
+#=====================================================================
+# ★ perlのパス名
+#    このファイルの先頭の１行を、あなたが利用するサーバーにインストー
+#    ルされた perl コマンドのパス名に応じて変更してください。例えば、
+#    私が加入している BIGLOBE では、#!/usr/local/bin/perl となります。
+#    解らない場合は、プロバイダやサーバの管理者にお問い合わせください。
+#   「#!」の前には、空文字や空行や他の文字がはいらないようにしてください。
+
+# ★ 送信先メールアドレス
+#    $mailto = 'abc@xxx.yyy.zzz'; のようにあなたのメールアドレスに
+#    書き換えてください。
+$mailto = 'michita@ayu.ics.keio.ac.jp';
+
+# ★ サブジェクト(件名)
+#    送信されるメールのサブジェクトを指定してください。
+$subject = 'WwwMailからのメール';
+
+# ★ メール送信コマンド
+#    WebサーバーがUNIXの場合はsendmailコマンド、Windows系の場合はBLATJ.EXE
+#    コマンドのパス名を指定（$mailcmd = 'C:\BLATJ\BLATJ.EXE'; など）してく
+#    ださい。このコマンドが存在しない場合は、WwwMail は動作しません。また、
+#    存在していても、メール送信の設定が行われていない場合があります。詳細
+#    はプロバイダやサーバーの管理者にお問い合わせください。
+$mailcmd = '/usr/lib/sendmail';
+
+# ★ 送信結果メッセージ(ヘッダ)
+#    <<END_OF_DATA 〜 END_OF_DATA の間を好みにあわせて変更してください。
+$header = <<END_OF_DATA;
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=Shift_JIS">
+<title>メール送信結果</title>
+</head>
+<body>
+<h1>メール送信結果</h1>
+<hr>
+<p>下記のメールを送信しました。ありがとうございました。</p>
+<hr>
+END_OF_DATA
+
+# ★ 送信結果メッセージ(フッタ)
+#    <<END_OF_DATA 〜 END_OF_DATA の間を好みにあわせて変更してください。
+$footer = <<END_OF_DATA;
+<hr>
+<a href="../index.htm">[戻る]</a>
+</body>
+</html>
+END_OF_DATA
+
+
+
+#====================================================================
+# 自己診断機能。
+#====================================================================
+# メール送信がうまく動作しない時に、
+# http://〜/〜/wwwmail.cgi?test の形式で呼び出してください。
+
+	print "Content-type: text/html; charset=Shift_JIS\n";
+	print "\n";
+	print "<html>\n";
+	print "<head>\n";
+	print "<title>WwwMail自己診断</title>\n";
+	print "</head>\n";
+	print "<body>\n";
+	print "<p>CGIは正常に動作しています。</p>\n";
+	unless (-f $mailcmd) {
+		print "<p>$mailcmd がありません。</p>\n";
+	}
+	unless (-x $mailcmd) {
+		print "<p>$mailcmd が実行可能ではありません。</p>\n";
+	}
+	unless (-f "jcode.pl") {
+		print "<p>jcode.pl がありません。</p>\n";
+	}
+	unless (-f "mimew.pl") {
+		print "<p>mimew.pl がありません。</p>\n";
+	}
+	print "</body>\n";
+	print "</html>\n";
+	exit 0;
+
+

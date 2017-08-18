@@ -1,0 +1,24 @@
+<html>
+<head>
+<meta http-equiv="Content-type" content=Shift_JIS">
+<title>学籍番号入力</title>
+</head>
+<body>
+<h1>学籍番号入力</h1>
+<hr>
+<form method="POST" action="go08.cgi">
+お名前:<br>
+<input type="text" size=50 name="NAME"><br>
+<br>
+<blink><font color="#ff0000">自分の</font></blink>メールアドレス:<br>
+<input type="text" size=50 name="EMAIL"><br>
+<br>
+学籍番号(<blink><font color="#ff0000">半角数字</font></blink>)<br>
+<input type="text" size=50 name="STUDENT-NUM"><br>
+<br>
+<input type="submit" value=" 出席 ">
+<input type="reset" value=" 取消 ">
+</form>
+<hr>
+</body>
+</html>
